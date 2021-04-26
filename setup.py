@@ -6,6 +6,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "my_package_with_extra @ git+ssh://git@github.com/yuvalmarciano/my-package-with-extra.git@master",
+        "my_package_with_extra @ git+ssh://git@github.com/yuvalmarciano/my-package-with-extra.git@master#egg=my_package_with_extra",
     ],
 )
